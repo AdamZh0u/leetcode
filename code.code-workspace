@@ -12,7 +12,7 @@
 		"window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
 		"window.titleSeparator": " _ ",
 		"editor.fontSize": 12, // 字体大小
-		"terminal.integrated.fontFamily": "monospace",
+		"terminal.integrated.fontFamily": "\"FiraCode Nerd Font\"",
   		"editor.fontFamily": "FiraCode Nerd Font, Consolas, 'Courier New', monospace",
 
 		"editor.wordWrap": "on",
@@ -32,7 +32,7 @@
 
 		// ## python 
 		"[python]": {
-			"editor.defaultFormatter": "ms-python.autopep8"
+			"editor.defaultFormatter": "charliermarsh.ruff"
 		},
 		"python.languageServer": "Pylance", 
 		"python.analysis.autoImportCompletions": true,
