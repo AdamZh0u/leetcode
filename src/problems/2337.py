@@ -23,10 +23,6 @@ class Solution:
                     return False
                 waitL -= 1    
         return waitL == 0 and waitR == 0
-
-            
-
-
         
 if __name__ == '__main__':
     start = "_L__R__R__"
